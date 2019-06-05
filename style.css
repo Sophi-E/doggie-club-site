@@ -1,0 +1,59 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: #34495e;
+  color: #ccc;
+
+}
+.header-image{
+  background-image: url('images/dog.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+  position: relative;
+}
+.header-text{
+  color: #1abc9c;
+  left: 50%;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+nav{
+  background-color: #ccc;
+  display: flex;
+  height: 80px;
+}
+nav ul{
+  align-items: center;
+  display: flex;
+
+
+}
+nav ul li{
+  list-style: none;
+
+
+}
+nav ul li a{
+  padding-right: 25px;
+  text-decoration: none;
+}
+nav ul li a:nth-child(4){
+
+}
+.body{
+  padding: 20px 2px;
+}
+.container-fluid{
+  background:#fff;
+  padding-bottom:30px;
+}
+
+.container, .card-deck{
+  margin-top:30px;
+}
