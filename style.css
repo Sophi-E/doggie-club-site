@@ -25,35 +25,47 @@ body{
 }
 nav{
   background-color: #ccc;
-  display: flex;
-  height: 80px;
+  height: 100px;
 }
 nav ul{
   align-items: center;
   display: flex;
-
-
+  justify-content: flex-end;
+}
+nav ul .logo{
+  text-align: left;
 }
 nav ul li{
   list-style: none;
-
-
 }
 nav ul li a{
+  color: #B83227;
+  font-size: 1.5rem;
+  font-weight: bold;
   padding-right: 25px;
   text-decoration: none;
 }
-nav ul li a:nth-child(4){
-
-}
 .body{
-  padding: 20px 2px;
+  padding: 40px 10px;
 }
 .container-fluid{
   background:#fff;
   padding-bottom:30px;
 }
-
+.grid{
+  background-color: #B83227;
+}
 .container, .card-deck{
   margin-top:30px;
+}
+.icons, .social-media, .footer{
+  text-align: center;
+}
+.social-media a{
+  font-size: 2.5rem;
+  padding: 20px 40px;
+  color: #B83227;
+}
+.icons, .footer{
+  padding:20px 2px;
 }
